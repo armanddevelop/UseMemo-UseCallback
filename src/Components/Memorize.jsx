@@ -10,11 +10,11 @@ export const Memorize = () => {
       <h2>
         Memorize Counter: <Small value={counter} />
       </h2>
-      <hr />
       <button onClick={() => increment()}>Increment Counter</button>
       <button onClick={() => setShow(!show)}>
         Show/Hide {JSON.stringify(show)}
       </button>
+      <hr />
     </div>
   );
 };
